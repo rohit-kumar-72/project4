@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script> <!-- defer is used to add java script on top and work like bottom -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="uppertext">
+            <h1>QR Code Generator</h1>
+            <h3>Paste text to create QR</h3>
+        </div>
+        <form id="qrform">
+            <input type="text" id="input" placeholder="Enter text here..">
+            <button id="button" type="submit">Generate QR Code</button>
+        </form>
+        <section class="qr" id="qrclass">
+            <img src="download.png" alt="issue in fetching QR" id="image">
+        </section>
+    </div>
+</body>
+
+</html>
